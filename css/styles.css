@@ -1,0 +1,67 @@
+header,
+footer {
+  background-color: #202020;
+  color: #fff;
+}
+
+body {
+  background-color: white;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  padding: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav ul {
+  padding: 60px;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+
+.button {
+  background-color: #bb0000;
+  color: #fff;
+  text-decoration: none;
+}
+
+.reviews {
+  background-color: #e8e8e8;
+}
+
+.sales {
+  background-color: #fbfbfb;
+}
+
+.sale {
+  background-color: #127300;
+  color: #fff;
+  text-decoration: none;
+}
+
+.red button {
+  background-color: #bb0000;
+}
+
+footer {
+  text-align: center;
+}
+
+.activecontact {
+  background-color: #bb0000;
+  color: #fff;
+  text-decoration: none;
+  font-size: large;
+}
