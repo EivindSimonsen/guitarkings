@@ -12,6 +12,7 @@ h3,
 
 .logo {
   color: #fff;
+  max-width: 200px;
 }
 
 header,
@@ -20,9 +21,27 @@ footer {
   color: #fff;
 }
 
+h1 {
+  background-image: url(../img/home-header.jpg);
+  min-height: 1500px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
 body {
   background-color: white;
   font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.HSG {
+  border-radius: 50px 50px 50px 50px;
+}
+
+.Profile-pic {
+  border-radius: 50%;
 }
 
 nav li {
@@ -52,6 +71,7 @@ nav ul {
   background-color: #bb0000;
   color: #fff;
   text-decoration: none;
+  font-family: Roboto;
 }
 
 .reviews {
@@ -77,8 +97,17 @@ footer {
 }
 
 .activecontact {
-  background-color: #bb0000;
-  color: #fff;
+  color: #000;
   text-decoration: none;
-  font-size: large;
+  font-size: larger;
+  font-family: BootsAndSpurs;
+}
+
+/*Form*/
+
+input,
+select,
+textarea {
+  border-color: #c4c4c4;
+  border-radius: 5px 5px 5px 5px;
 }
