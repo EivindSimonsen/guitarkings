@@ -49,9 +49,8 @@ nav li {
 }
 
 nav a {
-  color: #000;
+  color: white;
   text-decoration: none;
-  padding: 20px;
 }
 
 nav a:hover {
@@ -59,12 +58,11 @@ nav a:hover {
 }
 
 nav ul {
-  padding: 60px;
+  padding: 0px;
 }
 
-.active {
-  background-color: black;
-  color: white;
+.current {
+  text-decoration: underline;
 }
 
 .button {
