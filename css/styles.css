@@ -51,6 +51,7 @@ nav li {
 nav a {
   color: white;
   text-decoration: none;
+  padding: 20px;
 }
 
 nav a:hover {
@@ -70,6 +71,9 @@ nav ul {
   color: #fff;
   text-decoration: none;
   font-family: Roboto;
+  text-transform: uppercase;
+  padding: 5px 80px;
+  border-radius: 5px;
 }
 
 .reviews {
@@ -84,10 +88,21 @@ nav ul {
   background-color: #127300;
   color: #fff;
   text-decoration: none;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  text-transform: uppercase;
+  padding: 5px 40px;
+  border-radius: 5px;
 }
 
-.red button {
+.small-button {
   background-color: #bb0000;
+  color: #fff;
+  text-decoration: none;
+  font-family: roboto;
+  text-transform: uppercase;
+  padding: 5px 40px;
+  border-radius: 5px;
 }
 
 footer {
