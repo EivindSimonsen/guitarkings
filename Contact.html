@@ -9,40 +9,48 @@
         <link rel="stylesheet" href="css/styles.css">
         
     </head>
-    <header><a href="index.html" class="logo">Guitar Kings</a>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Guitars.html">Guitars</a></li>
-                <li><a href="Contact.html" class="current">Contact us</a></li>
-            </ul>
-        </nav>
-    </header>
-    <body>
-        <section>
-            <a href="Contact.html" class="activecontact">Contact us</a>
-           </section>
-        <section>
-            <form action="submit php" method="POST">
-                <label for="name">Your name</label>
-                <input type="text" name="name" id="name">
-                <label for="email">Your Email</label>
-                <input type="email" name="email" id="email">
-                <label for="Guitar">Guitar</label>
-                <select id="Guitar" name="Guitar">
-                    <option value="Adirondack Red">Adirondack Red</option>
-                    <option value="Adirondack Blue">Adirondack Blue</option>
-                    <option value="Adirondack Green">Adirondack Green</option>
-                </select>
-                <input type="checkbox" id="email-box">
-                <label for="email-box">Sign up for newsletters.</label>
-                <label for="Message">Message</label>
-                <textarea id="Message"></textarea>
-                <input type="submit" value="Send now" class="button">
-            </form>
-        </section>
-        <footer>
-             / Copyright &copy; /
-        </footer>
+        <body>
+            <header><a href="index.html" class="logo">Guitar Kings</a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Guitars.html">Guitars</a></li>
+                        <li><a href="Contact.html" class="current">Contact us</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="contact">
+                <section class="activecontact__Contact-page">
+                    <a href="Contact.html" class="activecontact__Contact-button">Contact us</a>
+                </section>
+                <form action="submit php" method="POST">
+                    <div class="form-wrapper">
+                        <section>
+                            <label for="name">Your name</label>
+                            <input type="text" name="name" id="name">
+                            <label for="email">Your Email</label>
+                            <input type="email" name="email" id="email">
+                            <label for="Guitar">Guitar</label>
+                            <select id="Guitar" name="Guitar">
+                                <option value="Adirondack Red">Adirondack Red</option>
+                                <option value="Adirondack Blue">Adirondack Blue</option>
+                                <option value="Adirondack Green">Adirondack Green</option>
+                            </select>
+                            <div>
+                                <input type="checkbox" id="email-box">
+                                <label for="email-box">Sign up for newsletters.</label>
+                            </div>
+                        </section>
+                        <section>
+                            <label for="Message">Message</label>
+                            <textarea id="Message"></textarea>
+                        </section>
+                    </div>
+                    <input type="submit" value="Send now" class="button">
+                </form>
+            </main>
+            <footer>
+                / Copyright &copy; /
+            </footer>
     </body>
 </html>       

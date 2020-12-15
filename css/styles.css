@@ -13,6 +13,12 @@ h3,
 .logo {
   color: #fff;
   max-width: 200px;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
 }
 
 header,
@@ -23,7 +29,7 @@ footer {
 
 .home {
   background-image: url(../img/home-header.jpg);
-  min-height: 1500px;
+  min-height: 1000px;
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
@@ -54,16 +60,55 @@ body {
   font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.HSG {
-  border-radius: 50px 50px 50px 50px;
+.selling-points {
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.selling-points > *,
+.reviews__content > * {
+  flex: 1;
+}
+
+.selling-points__Photo {
+  max-width: 500px;
+  border-radius: 100px;
+}
+
+.reviews {
+  background-color: #e8e8e8;
+  text-align: center;
+  padding: 50px;
+}
+
+.reviews__content {
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  text-align: left;
+}
+
+.reviews__content div {
+  margin: 50px;
+}
+
+.reviews__name {
+  position: relative;
+  display: block;
+  padding: 20px;
+  right: 20px;
 }
 
 .Profile-pic {
   border-radius: 50%;
+  width: 80px;
+  float: right;
 }
 
 nav li {
   display: inline-block;
+  margin-left: 20px;
 }
 
 nav a {
@@ -82,10 +127,6 @@ nav ul {
 
 .current {
   text-decoration: underline;
-}
-
-.reviews {
-  background-color: #e8e8e8;
 }
 
 .sales {
@@ -113,10 +154,6 @@ nav ul {
   border-radius: 5px;
 }
 
-footer {
-  text-align: center;
-}
-
 .activecontact {
   color: #000;
   text-decoration: none;
@@ -124,11 +161,100 @@ footer {
   font-family: BootsAndSpurs;
 }
 
-/*Form*/
+/*Contact us*/
+
+.activecontact__Contact-page {
+  padding: 20px;
+}
+
+.activecontact__Contact-button {
+  color: #000;
+  text-decoration: none;
+  font-size: 3em;
+  font-family: BootsAndSpurs;
+}
 
 input,
 select,
 textarea {
   border-color: #c4c4c4;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 5px;
+  margin: 10px 10px 10px 0px;
+  padding: 10px;
+}
+
+textarea {
+  height: 172.5px;
+}
+
+.contact {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.form-wrapper {
+  display: flex;
+  text-align: left;
+}
+
+.form-wrapper > * {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Guitars page*/
+
+/*Product specific*/
+
+.Product-specific {
+  display: flex;
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.Product-specific > * {
+  flex: 1;
+}
+
+.Product-specific__Price {
+  font-size: 1.5em;
+}
+
+.Product-image {
+  width: 100%;
+}
+
+.Product-specific__details {
+  padding: 0px 30px;
+  text-align: left;
+}
+
+.Product-button {
+  background-color: #bb0000;
+  color: #fff;
+  text-decoration: none;
+  font-family: Roboto;
+  text-transform: uppercase;
+  padding: 10px 80px;
+  border-radius: 5px;
+  display: block;
+  width: 95.767px;
+  margin: auto;
+}
+
+.Product-image__thumbnail {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+/*Footer*/
+
+footer {
+  text-align: center;
+  padding: 20px;
 }
