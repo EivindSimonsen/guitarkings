@@ -21,7 +21,7 @@ footer {
   color: #fff;
 }
 
-h1 {
+.home {
   background-image: url(../img/home-header.jpg);
   min-height: 1500px;
   background-repeat: no-repeat;
@@ -29,6 +29,24 @@ h1 {
   background-size: cover;
   background-position-x: right;
   background-position-y: bottom;
+  position: relative;
+}
+
+.home__content {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  text-align: center;
+}
+
+.button {
+  background-color: #bb0000;
+  color: #fff;
+  text-decoration: none;
+  font-family: Roboto;
+  text-transform: uppercase;
+  padding: 5px 80px;
+  border-radius: 5px;
 }
 
 body {
@@ -64,16 +82,6 @@ nav ul {
 
 .current {
   text-decoration: underline;
-}
-
-.button {
-  background-color: #bb0000;
-  color: #fff;
-  text-decoration: none;
-  font-family: Roboto;
-  text-transform: uppercase;
-  padding: 5px 80px;
-  border-radius: 5px;
 }
 
 .reviews {
