@@ -58,6 +58,10 @@ footer {
 body {
   background-color: white;
   font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
 }
 
 .selling-points {
@@ -130,7 +134,30 @@ nav ul {
 }
 
 .sales {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1000px;
+  margin: 50px auto;
+  grid-gap: 10px;
+}
+
+.sales__products {
   background-color: #fbfbfb;
+  display: grid;
+  grid-column: 1fr auto;
+}
+
+.sales h2 {
+  grid-column: -1/1;
+  text-align: center;
+}
+
+.sales h3 {
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sales img {
+  width: 100%;
 }
 
 .sale {
@@ -206,6 +233,21 @@ textarea {
 }
 
 /*Guitars page*/
+
+.Guitars {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.Product {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.Product img {
+  width: 100%;
+}
 
 /*Product specific*/
 
